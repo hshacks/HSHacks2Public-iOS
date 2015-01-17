@@ -45,3 +45,10 @@ Hey! If you want to customize parts of this app, follow these instructions:
 You probably have complaints or questions, so find me on facebook or github issue or something.
  
 Made by Spencer Yen and Alex Yeh
+
+<h3>To do</h3>
+- Make LoginVC root view controller
+- Use autolayout so frames don't have to be adjusted when loaded
+- Rely less on singleton and NSUserDefaults (lol)
+- General cleaning up
+- Ideally, slowly stray away from storyboard 
