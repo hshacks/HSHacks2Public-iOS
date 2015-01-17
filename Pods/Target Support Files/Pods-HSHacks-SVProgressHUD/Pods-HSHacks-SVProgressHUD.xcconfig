@@ -1,0 +1,1 @@
+PODS_HSHACKS_SVPROGRESSHUD_OTHER_LDFLAGS = -framework "QuartzCore"

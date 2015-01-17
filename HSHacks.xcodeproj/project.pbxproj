@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1536751A6276E400BA234E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1536741A6276E400BA234E /* Images.xcassets */; };
+		6C1536891A64655D00BA234E /* HSHackathonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1536881A64655D00BA234E /* HSHackathonManager.m */; };
+		6C15368D1A64CF9800BA234E /* logoLargeTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C15368C1A64CF9800BA234E /* logoLargeTransparent.png */; };
+		6C7DAED21A625F02003E4CB0 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7DAECE1A625F02003E4CB0 /* OpenSans-Bold.ttf */; };
+		6C7DAED31A625F02003E4CB0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7DAECF1A625F02003E4CB0 /* OpenSans-Light.ttf */; };
+		6C7DAED41A625F02003E4CB0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7DAED01A625F02003E4CB0 /* OpenSans-Regular.ttf */; };
+		6C7DAED51A625F02003E4CB0 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7DAED11A625F02003E4CB0 /* OpenSans-Semibold.ttf */; };
+		6C921E301A613F4600F2EFC9 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C921E2D1A613F4600F2EFC9 /* email.png */; };
+		6C921E311A613F4600F2EFC9 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C921E2E1A613F4600F2EFC9 /* phone.png */; };
+		6C921E321A613F4600F2EFC9 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C921E2F1A613F4600F2EFC9 /* twitter.png */; };
+		6CAB01151A61146A00056EDB /* HSScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB01141A61146A00056EDB /* HSScheduleViewController.m */; };
+		6CAB01181A61148D00056EDB /* HSWorkshopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB01171A61148D00056EDB /* HSWorkshopsViewController.m */; };
+		6CAB011A1A611FEC00056EDB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAB01191A611FEC00056EDB /* Social.framework */; };
+		6CAB011C1A611FF100056EDB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAB011B1A611FF100056EDB /* MessageUI.framework */; };
+		6CAB015C1A6133BB00056EDB /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB01571A6133BB00056EDB /* calendar@2x.png */; };
+		6CAB015D1A6133BB00056EDB /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB01581A6133BB00056EDB /* chat@2x.png */; };
+		6CAB015E1A6133BB00056EDB /* mentors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB01591A6133BB00056EDB /* mentors@2x.png */; };
+		6CAB015F1A6133BB00056EDB /* placeholderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB015A1A6133BB00056EDB /* placeholderIcon.png */; };
+		6CAB01601A6133BB00056EDB /* updates@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB015B1A6133BB00056EDB /* updates@2x.png */; };
+		6CCCB1BD1A60EDAC000347FD /* HSAnnoucementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCB1BC1A60EDAC000347FD /* HSAnnoucementsViewController.m */; };
+		6CCCB1C41A60EDD8000347FD /* HSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCB1C31A60EDD8000347FD /* HSChatViewController.m */; };
+		6CCCB1C71A60EDE7000347FD /* HSLogisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCB1C61A60EDE7000347FD /* HSLogisticsViewController.m */; };
+		6CCCB1CA1A60EDF7000347FD /* HSConciegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCB1C91A60EDF7000347FD /* HSConciegeViewController.m */; };
+		6CCCB1D11A60F3F4000347FD /* HSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCB1D01A60F3F4000347FD /* HSLoginViewController.m */; };
+		6CCCB1D41A60F8E5000347FD /* HSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCB1D31A60F8E5000347FD /* HSUser.m */; };
+		B2EAA9A71A60D41C005C243E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAA9A61A60D41C005C243E /* main.m */; };
+		B2EAA9AA1A60D41C005C243E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAA9A91A60D41C005C243E /* AppDelegate.m */; };
+		B2EAA9B01A60D41C005C243E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EAA9AE1A60D41C005C243E /* Main.storyboard */; };
+		CF7962EE541FD14092464F5D /* libPods-HSHacks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E4C209CBE5927DB5478172 /* libPods-HSHacks.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3837A3A7DDC5C15857AC32 /* Pods-HSHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSHacks/Pods-HSHacks.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1536741A6276E400BA234E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C1536871A64655D00BA234E /* HSHackathonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSHackathonManager.h; path = Utilities/HSHackathonManager.h; sourceTree = "<group>"; };
+		6C1536881A64655D00BA234E /* HSHackathonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSHackathonManager.m; path = Utilities/HSHackathonManager.m; sourceTree = "<group>"; };
+		6C15368C1A64CF9800BA234E /* logoLargeTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoLargeTransparent.png; sourceTree = "<group>"; };
+		6C7DAECE1A625F02003E4CB0 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6C7DAECF1A625F02003E4CB0 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6C7DAED01A625F02003E4CB0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6C7DAED11A625F02003E4CB0 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		6C921E2D1A613F4600F2EFC9 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		6C921E2E1A613F4600F2EFC9 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		6C921E2F1A613F4600F2EFC9 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		6CAB01131A61146A00056EDB /* HSScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSScheduleViewController.h; path = Controllers/HSScheduleViewController.h; sourceTree = "<group>"; };
+		6CAB01141A61146A00056EDB /* HSScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSScheduleViewController.m; path = Controllers/HSScheduleViewController.m; sourceTree = "<group>"; };
+		6CAB01161A61148D00056EDB /* HSWorkshopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSWorkshopsViewController.h; path = Controllers/HSWorkshopsViewController.h; sourceTree = "<group>"; };
+		6CAB01171A61148D00056EDB /* HSWorkshopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSWorkshopsViewController.m; path = Controllers/HSWorkshopsViewController.m; sourceTree = "<group>"; };
+		6CAB01191A611FEC00056EDB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		6CAB011B1A611FF100056EDB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6CAB01571A6133BB00056EDB /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		6CAB01581A6133BB00056EDB /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
+		6CAB01591A6133BB00056EDB /* mentors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mentors@2x.png"; sourceTree = "<group>"; };
+		6CAB015A1A6133BB00056EDB /* placeholderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderIcon.png; sourceTree = "<group>"; };
+		6CAB015B1A6133BB00056EDB /* updates@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "updates@2x.png"; sourceTree = "<group>"; };
+		6CCCB1BB1A60EDAC000347FD /* HSAnnoucementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSAnnoucementsViewController.h; path = Controllers/HSAnnoucementsViewController.h; sourceTree = "<group>"; };
+		6CCCB1BC1A60EDAC000347FD /* HSAnnoucementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSAnnoucementsViewController.m; path = Controllers/HSAnnoucementsViewController.m; sourceTree = "<group>"; };
+		6CCCB1C21A60EDD8000347FD /* HSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSChatViewController.h; path = Controllers/HSChatViewController.h; sourceTree = "<group>"; };
+		6CCCB1C31A60EDD8000347FD /* HSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSChatViewController.m; path = Controllers/HSChatViewController.m; sourceTree = "<group>"; };
+		6CCCB1C51A60EDE7000347FD /* HSLogisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSLogisticsViewController.h; path = Controllers/HSLogisticsViewController.h; sourceTree = "<group>"; };
+		6CCCB1C61A60EDE7000347FD /* HSLogisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSLogisticsViewController.m; path = Controllers/HSLogisticsViewController.m; sourceTree = "<group>"; };
+		6CCCB1C81A60EDF7000347FD /* HSConciegeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSConciegeViewController.h; path = Controllers/HSConciegeViewController.h; sourceTree = "<group>"; };
+		6CCCB1C91A60EDF7000347FD /* HSConciegeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSConciegeViewController.m; path = Controllers/HSConciegeViewController.m; sourceTree = "<group>"; };
+		6CCCB1CF1A60F3F4000347FD /* HSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSLoginViewController.h; path = Controllers/HSLoginViewController.h; sourceTree = "<group>"; };
+		6CCCB1D01A60F3F4000347FD /* HSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSLoginViewController.m; path = Controllers/HSLoginViewController.m; sourceTree = "<group>"; };
+		6CCCB1D21A60F8E5000347FD /* HSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSUser.h; path = Utilities/HSUser.h; sourceTree = "<group>"; };
+		6CCCB1D31A60F8E5000347FD /* HSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSUser.m; path = Utilities/HSUser.m; sourceTree = "<group>"; };
+		B2EAA9A11A60D41C005C243E /* HSHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EAA9A51A60D41C005C243E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EAA9A61A60D41C005C243E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EAA9A81A60D41C005C243E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2EAA9A91A60D41C005C243E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2EAA9AF1A60D41C005C243E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2EAA9BF1A60D41C005C243E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EAA9C01A60D41C005C243E /* HSHacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSHacksTests.m; sourceTree = "<group>"; };
+		E039456971BAD2D9B67112A7 /* Pods-HSHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSHacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSHacks/Pods-HSHacks.release.xcconfig"; sourceTree = "<group>"; };
+		E6E4C209CBE5927DB5478172 /* libPods-HSHacks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSHacks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EAA99E1A60D41C005C243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAB011C1A611FF100056EDB /* MessageUI.framework in Frameworks */,
+				6CAB011A1A611FEC00056EDB /* Social.framework in Frameworks */,
+				CF7962EE541FD14092464F5D /* libPods-HSHacks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB9EADDB07DFA69829FA64C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CAB011B1A611FF100056EDB /* MessageUI.framework */,
+				6CAB01191A611FEC00056EDB /* Social.framework */,
+				E6E4C209CBE5927DB5478172 /* libPods-HSHacks.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CAB011F1A6127A700056EDB /* Logistics Tab */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCB1C51A60EDE7000347FD /* HSLogisticsViewController.h */,
+				6CCCB1C61A60EDE7000347FD /* HSLogisticsViewController.m */,
+				6CAB01131A61146A00056EDB /* HSScheduleViewController.h */,
+				6CAB01141A61146A00056EDB /* HSScheduleViewController.m */,
+				6CAB01161A61148D00056EDB /* HSWorkshopsViewController.h */,
+				6CAB01171A61148D00056EDB /* HSWorkshopsViewController.m */,
+			);
+			name = "Logistics Tab";
+			sourceTree = "<group>";
+		};
+		6CCCB1A71A60ECB1000347FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6C7DAECE1A625F02003E4CB0 /* OpenSans-Bold.ttf */,
+				6C7DAECF1A625F02003E4CB0 /* OpenSans-Light.ttf */,
+				6C7DAED01A625F02003E4CB0 /* OpenSans-Regular.ttf */,
+				6C7DAED11A625F02003E4CB0 /* OpenSans-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6CCCB1B21A60ECC4000347FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6C15368C1A64CF9800BA234E /* logoLargeTransparent.png */,
+				6C921E2D1A613F4600F2EFC9 /* email.png */,
+				6C921E2E1A613F4600F2EFC9 /* phone.png */,
+				6C921E2F1A613F4600F2EFC9 /* twitter.png */,
+				6CAB01571A6133BB00056EDB /* calendar@2x.png */,
+				6CAB01581A6133BB00056EDB /* chat@2x.png */,
+				6CAB01591A6133BB00056EDB /* mentors@2x.png */,
+				6CAB015A1A6133BB00056EDB /* placeholderIcon.png */,
+				6CAB015B1A6133BB00056EDB /* updates@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6CCCB1BE1A60EDAF000347FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCB1CF1A60F3F4000347FD /* HSLoginViewController.h */,
+				6CCCB1D01A60F3F4000347FD /* HSLoginViewController.m */,
+				6CCCB1BB1A60EDAC000347FD /* HSAnnoucementsViewController.h */,
+				6CCCB1BC1A60EDAC000347FD /* HSAnnoucementsViewController.m */,
+				6CAB011F1A6127A700056EDB /* Logistics Tab */,
+				6CCCB1C81A60EDF7000347FD /* HSConciegeViewController.h */,
+				6CCCB1C91A60EDF7000347FD /* HSConciegeViewController.m */,
+				6CCCB1C21A60EDD8000347FD /* HSChatViewController.h */,
+				6CCCB1C31A60EDD8000347FD /* HSChatViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6CCCB1D51A60F8EC000347FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCB1D21A60F8E5000347FD /* HSUser.h */,
+				6CCCB1D31A60F8E5000347FD /* HSUser.m */,
+				6C1536871A64655D00BA234E /* HSHackathonManager.h */,
+				6C1536881A64655D00BA234E /* HSHackathonManager.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		B2EAA9981A60D41C005C243E = {
+			isa = PBXGroup;
+			children = (
+				B2EAA9A31A60D41C005C243E /* HSHacks */,
+				B2EAA9BD1A60D41C005C243E /* HSHacksTests */,
+				B2EAA9A21A60D41C005C243E /* Products */,
+				CCE5C6CCA946984579905574 /* Pods */,
+				5DB9EADDB07DFA69829FA64C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EAA9A21A60D41C005C243E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EAA9A11A60D41C005C243E /* HSHacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EAA9A31A60D41C005C243E /* HSHacks */ = {
+			isa = PBXGroup;
+			children = (
+				B2EAA9A81A60D41C005C243E /* AppDelegate.h */,
+				B2EAA9A91A60D41C005C243E /* AppDelegate.m */,
+				B2EAA9AE1A60D41C005C243E /* Main.storyboard */,
+				6CCCB1BE1A60EDAF000347FD /* Controllers */,
+				6CCCB1D51A60F8EC000347FD /* Utilities */,
+				6CCCB1B21A60ECC4000347FD /* Images */,
+				6CCCB1A71A60ECB1000347FD /* Fonts */,
+				6C1536741A6276E400BA234E /* Images.xcassets */,
+				B2EAA9A41A60D41C005C243E /* Supporting Files */,
+			);
+			path = HSHacks;
+			sourceTree = "<group>";
+		};
+		B2EAA9A41A60D41C005C243E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EAA9A51A60D41C005C243E /* Info.plist */,
+				B2EAA9A61A60D41C005C243E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EAA9BD1A60D41C005C243E /* HSHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EAA9C01A60D41C005C243E /* HSHacksTests.m */,
+				B2EAA9BE1A60D41C005C243E /* Supporting Files */,
+			);
+			path = HSHacksTests;
+			sourceTree = "<group>";
+		};
+		B2EAA9BE1A60D41C005C243E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EAA9BF1A60D41C005C243E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE5C6CCA946984579905574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3837A3A7DDC5C15857AC32 /* Pods-HSHacks.debug.xcconfig */,
+				E039456971BAD2D9B67112A7 /* Pods-HSHacks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EAA9A01A60D41C005C243E /* HSHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EAA9C41A60D41C005C243E /* Build configuration list for PBXNativeTarget "HSHacks" */;
+			buildPhases = (
+				6279DA261C49319E8D1DC33C /* Check Pods Manifest.lock */,
+				B2EAA99D1A60D41C005C243E /* Sources */,
+				B2EAA99E1A60D41C005C243E /* Frameworks */,
+				B2EAA99F1A60D41C005C243E /* Resources */,
+				097DA0D6FFB843C21FE70B0E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSHacks;
+			productName = HSHacks;
+			productReference = B2EAA9A11A60D41C005C243E /* HSHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EAA9991A60D41C005C243E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Yeh";
+				TargetAttributes = {
+					B2EAA9A01A60D41C005C243E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B2EAA99C1A60D41C005C243E /* Build configuration list for PBXProject "HSHacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EAA9981A60D41C005C243E;
+			productRefGroup = B2EAA9A21A60D41C005C243E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EAA9A01A60D41C005C243E /* HSHacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EAA99F1A60D41C005C243E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7DAED31A625F02003E4CB0 /* OpenSans-Light.ttf in Resources */,
+				6C15368D1A64CF9800BA234E /* logoLargeTransparent.png in Resources */,
+				6C921E321A613F4600F2EFC9 /* twitter.png in Resources */,
+				6C921E311A613F4600F2EFC9 /* phone.png in Resources */,
+				6C7DAED21A625F02003E4CB0 /* OpenSans-Bold.ttf in Resources */,
+				6CAB015F1A6133BB00056EDB /* placeholderIcon.png in Resources */,
+				6CAB015E1A6133BB00056EDB /* mentors@2x.png in Resources */,
+				6C1536751A6276E400BA234E /* Images.xcassets in Resources */,
+				6C921E301A613F4600F2EFC9 /* email.png in Resources */,
+				6CAB015D1A6133BB00056EDB /* chat@2x.png in Resources */,
+				B2EAA9B01A60D41C005C243E /* Main.storyboard in Resources */,
+				6C7DAED51A625F02003E4CB0 /* OpenSans-Semibold.ttf in Resources */,
+				6CAB01601A6133BB00056EDB /* updates@2x.png in Resources */,
+				6C7DAED41A625F02003E4CB0 /* OpenSans-Regular.ttf in Resources */,
+				6CAB015C1A6133BB00056EDB /* calendar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097DA0D6FFB843C21FE70B0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSHacks/Pods-HSHacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6279DA261C49319E8D1DC33C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EAA99D1A60D41C005C243E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCCB1C41A60EDD8000347FD /* HSChatViewController.m in Sources */,
+				6CCCB1C71A60EDE7000347FD /* HSLogisticsViewController.m in Sources */,
+				B2EAA9AA1A60D41C005C243E /* AppDelegate.m in Sources */,
+				6CAB01181A61148D00056EDB /* HSWorkshopsViewController.m in Sources */,
+				B2EAA9A71A60D41C005C243E /* main.m in Sources */,
+				6CCCB1D11A60F3F4000347FD /* HSLoginViewController.m in Sources */,
+				6CCCB1CA1A60EDF7000347FD /* HSConciegeViewController.m in Sources */,
+				6CCCB1D41A60F8E5000347FD /* HSUser.m in Sources */,
+				6CAB01151A61146A00056EDB /* HSScheduleViewController.m in Sources */,
+				6C1536891A64655D00BA234E /* HSHackathonManager.m in Sources */,
+				6CCCB1BD1A60EDAC000347FD /* HSAnnoucementsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2EAA9AE1A60D41C005C243E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EAA9AF1A60D41C005C243E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EAA9C21A60D41C005C243E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2EAA9C31A60D41C005C243E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EAA9C51A60D41C005C243E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3837A3A7DDC5C15857AC32 /* Pods-HSHacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HSHacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B2EAA9C61A60D41C005C243E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E039456971BAD2D9B67112A7 /* Pods-HSHacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HSHacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EAA99C1A60D41C005C243E /* Build configuration list for PBXProject "HSHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EAA9C21A60D41C005C243E /* Debug */,
+				B2EAA9C31A60D41C005C243E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EAA9C41A60D41C005C243E /* Build configuration list for PBXNativeTarget "HSHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EAA9C51A60D41C005C243E /* Debug */,
+				B2EAA9C61A60D41C005C243E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EAA9991A60D41C005C243E /* Project object */;
+}
