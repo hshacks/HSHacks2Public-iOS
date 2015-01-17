@@ -4,7 +4,7 @@
 ![alt tag](http://i.imgur.com/ltS1p3R.gif)
 ![alt tag](http://i.imgur.com/SkNR2Ve.gif)
 
-(To run the app, you're going to have to add www.fabric.io or comment out twitter code. Keep in mind pretty much nothing will work immedieatly as you have to add your own Parse/Firebase info, as explained below.)
+(To run the app, you're going to have to add www.fabric.io or comment out twitter code. Keep in mind pretty much nothing will work immediately as you have to add your own Parse/Firebase info, as explained below.)
 
 <h2>Getting Started</h2>
 (This project uses cocoapods, so make sure to do a pod install in the directory to get all necessary frameworks)
