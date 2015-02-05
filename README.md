@@ -47,8 +47,11 @@ You probably have complaints or questions, so find me on facebook or github issu
 Made by Spencer Yen and Alex Yeh
 
 <h3>To do</h3>
+- Fix chat UI sending double messages
+- Prevent empty messages from being sent
 - Make LoginVC root view controller
 - Use autolayout so frames don't have to be adjusted when loaded
 - Rely less on singleton and NSUserDefaults (lol)
 - General cleaning up
 - Ideally, slowly stray away from storyboard 
+
