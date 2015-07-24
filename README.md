@@ -44,7 +44,7 @@ Hey! If you want to customize parts of this app, follow these instructions:
     
 You probably have complaints or questions, so find me on facebook or github issue or something.
  
-Made by Spencer Yen and Alex Yeh
+Made by Spencer Yen, Aakash Thumaty and Alex Yeh
 
 <h3>To do</h3>
 - Fix chat UI sending double messages
